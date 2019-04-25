@@ -1,30 +1,22 @@
 
-@keyframes
-  scale-up-ver-top{0% {transform:scaleY(.4);
-    transform-origin:100% 0}
-    100%{
-      transform:scaleY(1);
-      transform-origin:70% 0}}
-
-}
   div {
    width: 1000px;
    height: 700px;
    border: 20px color white;
    padding: 10px;
    margin: 10px;
+}
 
-}
 body {
-background:#D1D8FF;
-}
-      h1 {
-        font-family: monospace;
-      }
-      p {
-        font-family: monospace;
-        color: red;
-      }
+  background:#D1D8FF;
+     }
+h1 {
+  font-family: monospace;
+    }
+p {
+  font-family: monospace;
+  color: white;
+  }
 
 .title {
   position: fixed;
@@ -32,3 +24,12 @@ background:#D1D8FF;
   top: 10px;
   z-index: 0;
 }
+.circle {
+  position: absolute;
+  left: 500px
+  top: 70px
+      width: 600px;
+      height: 700px;
+      background: white;
+      border-radius: 100%
+    }
