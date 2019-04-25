@@ -1,5 +1,5 @@
 body {
-    background: #C6ABFF;
+    background: #F3FFC7;
   }
   div {
    width: 1000px;
@@ -45,7 +45,7 @@ p1{
   top: 35px;
   width: 700px;
   height: 700px;
-  background: #DAF7A6;
+  background: red;
   border-radius: 100%
     }
 .circle1 {
@@ -54,7 +54,7 @@ p1{
   top: 90px;
   width: 600px;
   height: 600px;
-  background: #A6F7E5;
+  background: blue;
   border-radius: 100%
         }
 .circle2 {
@@ -63,7 +63,13 @@ p1{
   top: 137px;
   width: 500px;
   height: 500px;
-  background: pink;
+  background: yellow;
   border-radius: 100%
-
-  
+}
+.movingcircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 180px;
+    transform: translate(-99px,-100px);
+  }
