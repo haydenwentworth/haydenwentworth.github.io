@@ -12,12 +12,27 @@ body {
      }
 h1 {
   font-family: monospace;
+  font-size: 40pt
     }
 p {
   font-family: monospace;
-  color: white;
+  font-size: 20pt;
+  color: #C70039;
   }
+p1{
+  font-family: monospace;
+  font-size: 20pt;
+  color: #C70039
+}
 
+  img {
+    position: fixed;
+    left: 900px;
+    top: 155px;
+    width: 350px;
+    height:500px;
+    border-radius: 200%;
+  }
 .title {
   position: fixed;
   left: 50px;
@@ -26,10 +41,27 @@ p {
 }
 .circle {
   position: fixed;
-  left: 600px;
+  left: 700px;
   top: 35px;
-      width: 700px;
-      height: 700px;
-      background: white;
-      border-radius: 100%
+  width: 700px;
+  height: 700px;
+  background: #DAF7A6;
+  border-radius: 100%
     }
+.circle1 {
+  position: fixed;
+  left: 750px;
+  top: 90px;
+  width: 600px;
+  height: 600px;
+  background: #A6F7E5;
+  border-radius: 100%
+        }
+.circle2 {
+  position: fixed;
+  left: 800px;
+  top: 137px;
+  width: 500px;
+  height: 500px;
+  background: pink;
+  border-radius: 100%
