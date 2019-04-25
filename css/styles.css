@@ -25,10 +25,10 @@ p {
   z-index: 0;
 }
 .circle {
-  position: absolute;
-  left: 500px
-  top: 70px
-      width: 600px;
+  position: fixed;
+  left: 600px;
+  top: 35px;
+      width: 700px;
       height: 700px;
       background: white;
       border-radius: 100%
