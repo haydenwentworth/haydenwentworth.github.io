@@ -1,23 +1,11 @@
+
 @keyframes
-  myMove {
-    0% { top: 0px; }
-    100% { top: 350px; }
-      }
-  .myMove{animation: myMove 5s ease-out}
-@keyframes
-  scale-up-ver-top{0%{transform:scaleY(.4);
+  scale-up-ver-top{0% {transform:scaleY(.4);
     transform-origin:100% 0}
     100%{
       transform:scaleY(1);
-      transform-origin:100% 0}}
+      transform-origin:70% 0}}
 
-.scale-up-ver-top{animation:scale-up-ver-top 4s ease-out}
-
-.colorbox {
-  border-top:100px outset #fdff00;
-  border-right:100px outset #2200ff;
-  border-bottom:100px outset #05e51f;
-  border-left:100px outset #ff1a00;
 }
   div {
    width: 1000px;
